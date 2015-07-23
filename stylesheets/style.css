@@ -1006,7 +1006,7 @@ a.tags, .tags a {color:#fff;}
 .ca-name-header{
     position: absolute;
     left: 0px;
-    width: 100%;
+    width: 70%;
     height: 50%;
     top: 30%;
 		font-size: 20px;
@@ -1020,7 +1020,8 @@ a.tags, .tags a {color:#fff;}
 }
 
 .ca-name-content{
-    text-align:center;
+	  width: 70%;
+    text-align:left;
     font-size: 14px;
     color: #666;
     line-height: 40px;
