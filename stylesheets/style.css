@@ -1078,6 +1078,13 @@ a.tags, .tags a {color:#fff;}
     -moz-animation: moveFromLeftRotate 300ms ease;
     -ms-animation: moveFromLeftRotate 300ms ease;
 }
+
+.ca-about li:hover .ca-about-content-g{
+    -webkit-animation: moveFromLeftRotate 300ms ease;
+    -moz-animation: moveFromLeftRotate 300ms ease;
+    -ms-animation: moveFromLeftRotate 300ms ease;
+}
+
 .ca-about li:hover .ca-about-text-g
 {
     color: #333;
