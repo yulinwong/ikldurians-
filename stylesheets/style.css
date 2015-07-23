@@ -1034,12 +1034,20 @@ a.tags, .tags a {color:#fff;}
     -ms-animation: moveFromBottom 500ms ease;
 }
 
-.ca-content1{
+.ca-content-guan{
     position: absolute;
     left: 0px;
     width: 100%;
     height: auto;
     top: 20%;
+}
+
+.ca-content-wyman{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    top: 60%;
 }
 
 @-webkit-keyframes moveFromLeftRotate{
