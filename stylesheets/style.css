@@ -9,6 +9,39 @@ a:hover { color: #2795b6 }
 a:focus { color: #2ba6cb; outline: none; }
 p a,p a:visited { line-height: inherit }
 img {border:0px;}
+img {
+  vertical-align: middle;
+}
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.img-rounded {
+  border-radius: 6px;
+}
+.img-thumbnail {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out;
+       -o-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+.img-circle {
+  border-radius: 50%;
+}
+
 #googlemap img,object,embed { max-width: none }
 #map_canvas embed { max-width: none }
 #map_canvas img { max-width: none }
@@ -59,7 +92,7 @@ abbr { text-transform: none }
 /* Print styles.  Inlined to avoid required HTTP connection: www.phpied.com/delay-loading-your-print-css/ Credit to Paul Irish and HTML5 Boilerplate (html5boilerplate.com)
 */
 .print-only { display: none !important }
-@media print { 
+@media print {
 	* { background: transparent !important; color: black !important; box-shadow: none !important; text-shadow: none !important; filter: none !important; -ms-filter: none !important; }
 	/* Black prints faster: h5bp.com/s */
 	a,
@@ -147,7 +180,7 @@ form.custom .custom.disabled { background-color: #ddd }
 @font-face { font-family: 'BitterBold'; src: url('fonts/Bitter-Bold-webfont.eot'); src: url('fonts/Bitter-Bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/Bitter-Bold-webfont.woff') format('woff'), url('fonts/Bitter-Bold-webfont.ttf') format('truetype'), url('fonts/Bitter-Bold-webfont.svg#BitterBold') format('svg'); font-weight: normal; font-style: normal; }
 @font-face { font-family: 'ChunkFiveRegular'; src: url('fonts/Chunkfive-webfont.eot'); src: url('fonts/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/Chunkfive-webfont.woff') format('woff'), url('fonts/Chunkfive-webfont.ttf') format('truetype'), url('fonts/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg'); font-weight: normal; font-style: normal;}
 /* Correct FF custom dropdown height */
-@-moz-document url-prefix() { 
+@-moz-document url-prefix() {
 	form.custom div.custom.dropdown a.selector { height: 30px }
 }
 .lt-ie9 form.custom div.custom.dropdown a.selector { height: 30px }
@@ -240,7 +273,7 @@ that IE7/8 do not support :nth-child.
 .block-grid.five-up > li { width: 20%; padding: 0 8px 8px; }
 .block-grid.five-up > li:nth-child(5n+1) { clear: both }
 /* Mobile Block Grids */
-@media only screen and (max-width: 767px) { 
+@media only screen and (max-width: 767px) {
 	.block-grid.mobile > li { float: none; width: 100%; margin-left: 0; }
 	.block-grid > li { clear: none !important }
 	.block-grid.mobile-two-up > li { width: 50% }
@@ -299,7 +332,7 @@ input[type=submit].button,
 button.button { -webkit-appearance: none }
 
 /* Correct FF button padding */
-@-moz-document url-prefix() { 
+@-moz-document url-prefix() {
 	button::-moz-focus-inner,
 	input[type="reset"]::-moz-focus-inner,
 	input[type="button"]::-moz-focus-inner,
@@ -623,7 +656,7 @@ ul.link-list li a { display: block }
 /* <nav> */
 .top-bar { nowhitespace: afterproperty; height: 45px; line-height: 45px; margin: 0 0 30px; padding: 0; width: 100%; }
 /* Firefox Fixes */
-@-moz-document url-prefix() { 
+@-moz-document url-prefix() {
 	.top-bar ul li .button.small { padding-bottom: 6px }
 	.top-bar ul li.search form input[type=search] { font-size: 14px; height: 22px; padding: 3px; }
 }
@@ -893,7 +926,7 @@ a.tags, .tags a {color:#fff;}
 .commentdate {margin-bottom:7px;color:#aaa;font-size:13px;}
 #subheader {padding:22px 50px 23px 50px !important;}
 *******************************************************************************************************************
-*     Subheader Effects                                                                                                  
+*     Subheader Effects
 *******************************************************************************************************************/
   @font-face {
     font-family: 'WebSymbolsRegular';
@@ -989,7 +1022,7 @@ a.tags, .tags a {color:#fff;}
     color: #fff;
     font-size: 60px;
 }
-.ca-menu li:hover .ca-main{   
+.ca-menu li:hover .ca-main{
     -webkit-animation: moveFromLeftRotate 300ms ease;
     -moz-animation: moveFromLeftRotate 300ms ease;
     -ms-animation: moveFromLeftRotate 300ms ease;
@@ -1050,14 +1083,14 @@ a.tags, .tags a {color:#fff;}
     }
 }
 /*******************************************************************************************************************
-*     Top Slider                                                                                             
+*     Top Slider
 *******************************************************************************************************************/
 .ei-slider{
 	position: relative;
 	width: 100%;
 	max-width: 1920px;
 	height: 500px;
-	margin: 0 auto;	
+	margin: 0 auto;
 }
 .ei-slider-loading{
 	width: 100%;
@@ -1090,7 +1123,7 @@ a.tags, .tags a {color:#fff;}
 	opacity:1;
 }
 .ei-title{
-	position: absolute;	
+	position: absolute;
 	top: 30%;
 }
 .ei-title h2, .ei-title h3{
@@ -1098,7 +1131,7 @@ a.tags, .tags a {color:#fff;}
 }
 .ei-title h2{
 	font-size: 40px;
-	line-height: 50px;	
+	line-height: 50px;
 	color: #fff;
 	padding: 0 10px;
 }
@@ -1137,7 +1170,7 @@ padding: 0px 40px;
 	width: 100%;
 	height: 100%;
 	cursor: pointer;
-	border-right: 1px solid #555;	
+	border-right: 1px solid #555;
 	-webkit-transition: background 0.2s ease;
     -moz-transition: background 0.2s ease;
     -o-transition: background 0.2s ease;
@@ -1158,13 +1191,13 @@ padding: 0px 40px;
     -o-transition: all 0.4s ease;
     -ms-transition: all 0.4s ease;
     transition: all 0.4s ease;
-	-webkit-box-reflect: 
+	-webkit-box-reflect:
         below 0px -webkit-gradient(
-            linear, 
-            left top, 
-            left bottom, 
-            from(transparent), 
-            color-stop(50%, transparent), 
+            linear,
+            left top,
+            left bottom,
+            from(transparent),
+            color-stop(50%, transparent),
             to(rgba(255,255,255,0.3))
             );
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -1578,7 +1611,7 @@ Supports Thumbs: true
  * Free to use and abuse under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
  */
- 
+
 /* The Nivo Slider styles */
 .nivoSlider {
 	position:relative;
@@ -1594,7 +1627,7 @@ Supports Thumbs: true
 }
 .nivo-main-image {
 	display: block !important;
-	position: relative !important; 
+	position: relative !important;
 	width: 100% !important;
 }
 
