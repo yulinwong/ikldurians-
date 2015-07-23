@@ -1086,14 +1086,15 @@ a.tags, .tags a {color:#fff;}
     -ms-animation: moveFromLeftRotate 500ms ease;
 }
 
-.ca-about-content{
+.ca-about-content-g{
     position: absolute;
     left: 0px;
-    width: 100%;
-    height: 50%;
-    top: 30%;
+    width: 70%;
+		top:20%;
+		left:0px
+
 }
-.ca-about-header{
+.ca-about-header-g{
     font-size: 20px;
     opacity: 0.8;
     text-align: center;
@@ -1104,7 +1105,40 @@ a.tags, .tags a {color:#fff;}
     transition: all 200ms linear;
 }
 
-.ca-about-text{
+.ca-about-text-g{
+    text-align:center;
+    font-size: 14px;
+    color: #666;
+    line-height: 40px;
+    opacity: 0.8;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    -ms-transition: all 200ms linear;
+    transition: all 200ms linear;
+	font-family:DroidSansRegular;
+}
+
+.ca-about-content-w{
+    position: absolute;
+    left: 0px;
+    width: 70%;
+		top:60%;
+		right:0px;
+
+}
+.ca-about-header-w{
+    font-size: 20px;
+    opacity: 0.8;
+    text-align: center;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    -ms-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+.ca-about-text-w{
     text-align:center;
     font-size: 14px;
     color: #666;
