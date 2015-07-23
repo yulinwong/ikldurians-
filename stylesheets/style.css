@@ -1073,13 +1073,32 @@ a.tags, .tags a {color:#fff;}
     color: #fff;
     font-size: 60px;
 }
-.ca-about li:hover .ca-about-header{
+.ca-about li:hover .ca-about-header-g{
     -webkit-animation: moveFromLeftRotate 300ms ease;
     -moz-animation: moveFromLeftRotate 300ms ease;
     -ms-animation: moveFromLeftRotate 300ms ease;
 }
-.ca-about li:hover .ca-about-text
+.ca-about li:hover .ca-about-text-g
 {
+    color: #333;
+    -webkit-animation: moveFromLeftRotate 500ms ease;
+    -moz-animation: moveFromLeftRotate 500ms ease;
+    -ms-animation: moveFromLeftRotate 500ms ease;
+}
+
+.ca-about li:hover{
+    background-color: transparent;
+}
+.ca-about li:hover .featurette{
+    color: #fff;
+    font-size: 60px;
+}
+.ca-about li:hover .ca-about-header-w{
+    -webkit-animation: moveFromLeftRotate 300ms ease;
+    -moz-animation: moveFromLeftRotate 300ms ease;
+    -ms-animation: moveFromLeftRotate 300ms ease;
+}
+.ca-about li:hover .ca-about-text-w{
     color: #333;
     -webkit-animation: moveFromLeftRotate 500ms ease;
     -moz-animation: moveFromLeftRotate 500ms ease;
