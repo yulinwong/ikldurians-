@@ -1008,7 +1008,7 @@ a.tags, .tags a {color:#fff;}
     left: 0px;
     width: 70%;
     height: 50%;
-    top: 30%;
+    top: 0px;
 		font-size: 20px;
 		opacity: 0.8;
 		text-align: center;
@@ -1021,6 +1021,8 @@ a.tags, .tags a {color:#fff;}
 
 .ca-name-content{
 	  width: 70%;
+		height: 100%;
+		top: 50%;
     text-align:left;
     font-size: 14px;
     color: #666;
