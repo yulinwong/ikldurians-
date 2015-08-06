@@ -1,7 +1,7 @@
 /************************************************************************************
 MAX-WIDTH 767
 *************************************************************************************/
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) { 
 	input[type="text"].one, input[type="password"].one, input[type="date"].one, input[type="datetime"].one, input[type="email"].one, input[type="number"].one, input[type="search"].one, input[type="tel"].one, input[type="time"].one, input[type="url"].one, textarea.one, .row textarea.one { width: 100% !important }
 	input[type="text"].two, .row input[type="text"].two, input[type="password"].two, .row input[type="password"].two, input[type="date"].two, .row input[type="date"].two, input[type="datetime"].two, .row input[type="datetime"].two, input[type="email"].two, .row input[type="email"].two, input[type="number"].two, .row input[type="number"].two, input[type="search"].two, .row input[type="search"].two, input[type="tel"].two, .row input[type="tel"].two, input[type="time"].two, .row input[type="time"].two, input[type="url"].two, .row input[type="url"].two, textarea.two, .row textarea.two { width: 100% !important }
 	input[type="text"].three, .row input[type="text"].three, input[type="password"].three, .row input[type="password"].three, input[type="date"].three, .row input[type="date"].three, input[type="datetime"].three, .row input[type="datetime"].three, input[type="email"].three, .row input[type="email"].three, input[type="number"].three, .row input[type="number"].three, input[type="search"].three, .row input[type="search"].three, input[type="tel"].three, .row input[type="tel"].three, input[type="time"].three, .row input[type="time"].three, input[type="url"].three, .row input[type="url"].three, textarea.three, .row textarea.three { width: 100% !important }
@@ -47,9 +47,9 @@ MAX-WIDTH 767
 	.tooltip.right > .nub { border-color: transparent transparent black transparent; border-color: transparent transparent rgba(0, 0, 0, 0.85) transparent; top: -12px; left: 10px; }
 
 }
-@media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
+@media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) { 
 	.flex-video { padding-top: 0 }
-
+	
 }
 
 /* Very large display targeting */
@@ -66,7 +66,7 @@ MAX-WIDTH 767
 .hide-for-small,
 .hide-for-medium,
 .hide-for-medium-down { display: block !important }
-@media only screen and (min-width: 1441px) {
+@media only screen and (min-width: 1441px) { 
 	.hide-for-small,
 	.hide-for-medium,
 	.hide-for-medium-down,
@@ -81,7 +81,7 @@ MAX-WIDTH 767
 	.hide-for-xlarge { display: none !important }
 }
 /* Medium display targeting */
-@media only screen and (max-width: 1279px) and (min-width: 768px) {
+@media only screen and (max-width: 1279px) and (min-width: 768px) { 
 	.hide-for-small,
 	.show-for-medium,
 	.show-for-medium-down,
@@ -96,7 +96,7 @@ MAX-WIDTH 767
 	.show-for-xlarge { display: none !important }
 }
 /* Small display targeting */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) { 
 	.show-for-small,
 	.hide-for-medium,
 	.show-for-medium-down,
@@ -115,13 +115,13 @@ MAX-WIDTH 767
 .hide-for-portrait { display: block !important }
 .hide-for-landscape,
 .show-for-portrait { display: none !important }
-@media screen and (orientation: landscape) {
+@media screen and (orientation: landscape) { 
 	.show-for-landscape,
 	.hide-for-portrait { display: block !important }
 	.hide-for-landscape,
 	.show-for-portrait { display: none !important }
 }
-@media screen and (orientation: portrait) {
+@media screen and (orientation: portrait) { 
 	.show-for-portrait,
 	.hide-for-landscape { display: block !important }
 	.hide-for-portrait,
@@ -137,13 +137,13 @@ table.show-for-xlarge,
 table.show-for-large,
 table.hide-for-small,
 table.hide-for-medium { display: table !important }
-@media only screen and (max-width: 1279px) and (min-width: 768px) {
+@media only screen and (max-width: 1279px) and (min-width: 768px) { 
 	.touch table.hide-for-xlarge,
 	.touch table.hide-for-large,
 	.touch table.hide-for-small,
 	.touch table.show-for-medium { display: table !important }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) { 
 	table.hide-for-xlarge,
 	table.hide-for-large,
 	table.hide-for-medium,
@@ -153,12 +153,12 @@ table.hide-for-medium { display: table !important }
 /************************************************************************************
 MAX-WIDTH 800
 *************************************************************************************/
-@media screen and (min-width: 600px) and (max-width: 800px) {
-	.row { width: 100%; max-width: 100%; min-width: 1px; margin: 0 auto; }
+@media screen and (min-width: 600px) and (max-width: 800px) {  
+	.row { width: 100%; max-width: 100%; min-width: 1px; margin: 0 auto; } 
 	.ca-menu{padding:0; margin-left: 100px;}
 	.ca-menu li{ width: 250px;}
  }
-@media screen and (min-width: 600px) and (max-width: 800px) {
+@media screen and (min-width: 600px) and (max-width: 800px) {  
  .ei-title h2,.ei-title h3 {}
 }
  /************************************************************************************
@@ -178,13 +178,13 @@ CAROUSEL
 @media screen and (max-width: 850px) {
 .fitcarousel {width:97%;overflow:hidden;}
 }
-@media screen and (min-width: 470px) and (max-width: 480px) {
+@media screen and (min-width: 470px) and (max-width: 480px) {  
 .fitcarousel {width:89% !important;overflow:hidden;}
 }
 /************************************************************************************
 MAX-WITH 480
 *************************************************************************************/
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) { 
 	body { -webkit-text-size-adjust: none; -ms-text-size-adjust: none; width: 100%; min-width: 0; margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0; }
 	.row { width: auto; min-width: 0; margin-left: 0; margin-right: 0; }
 	.column, .columns { width: auto !important; float: none; }
@@ -222,7 +222,7 @@ MAX-WITH 480
 	.nav-bar > li { float: left; display: block; position: relative; padding: 10px 0; margin: 0 7px 0 0;line-height:10px;}
 	ul.flyout li a, .nav-bar li ul li a {margin:0px;height:100%;}
 	.name {display:block;}
-	.noleftmarg {padding:0px !important;}
+	.noleftmarg {padding:0px !important;}	
 	.logo { margin-top: 20px;margin-bottom:0px;}
 	.ei-slider {height:260px;}
 	.responsiveslide {margin-left: 0px !important;width:100% !Important;height: 200px !important;}
@@ -230,7 +230,7 @@ MAX-WITH 480
 	.floatright {float:none;}
 	#footer h1 {padding-top:20px;}
 	.back-top, .back-top a, .slide{display:none;}
-	.left { float: none }
+	.left { float: none }	
 	.right { float: right; }
 	.ei-title h2,.ei-title h3 {}
 	#testimonials {height:260px !important;}
@@ -241,7 +241,7 @@ MAX-WITH 480
 	p.right {float:none;}
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 601px) { 
 	/* ensure #nav is visible on desktop version */
 		/* styles for desktop */
 	.tinynav { display: none }
@@ -253,7 +253,7 @@ SUPERFISH
 @media screen and (max-width: 800px) {
 	.tinynav { display: block }
 	#main-menu{ display: none }
-	.navbar-custom.columns{  padding: 0;float:none !Important;width:100% !Important;}
+	.headermenu.columns{  padding: 0;float:none !Important;width:100% !Important;}
 	.headerlogo {width:100% !Important;  z-index: 2;  position: relative;}
 	.columns .headerlogo {padding-bottom:0;}	
 	.fitcarousel {width:81%;overflow:hidden;}
@@ -263,13 +263,13 @@ SUPERFISH
 	.row {  min-width: 100%;}
 	.logo {  margin-top: 17px;  margin-bottom: 17px;}
 }
-
+ 
 
 
 /************************************************************************************
 MAX-WIDTH 240
 *************************************************************************************/
-@media screen and (max-width: 240px) {
+@media screen and (max-width: 240px) { 
 .row .mobile-one {width:45% !important;}
 .row .mobile-three {width:55% !Important;}
 .ca-menu, #footer {overflow:hidden;}
