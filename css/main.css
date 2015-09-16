@@ -168,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*============ Navigation ================*/
 
-.navbar-inverse {
+.navbar-default {
 	background-color: #2B2C30;
   font-family: 'Autour One', cursive;
   border-bottom: 1px solid #666;
@@ -185,7 +185,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 }
 
-.navbar-inverse .navbar-nav > li > a {
+.navbar-default .navbar-nav > li > a {
     color: #fff;
     font-size: 14px;
     line-height: 26px;
@@ -197,12 +197,12 @@ h1, h2, h3, h4, h5, h6 {
 			transition: background .5s ease-in-out 0s;
 }
 
-.navbar-inverse .navbar-nav > li.current > a {
+.navbar-default .navbar-nav > li.current > a {
     color: #6cb670;
     background-color: #2f3238;
 }
 
-.navbar-inverse .navbar-nav > li > a:hover {
+.navbar-default .navbar-nav > li > a:hover {
     color: #6cb670;
 }
 
