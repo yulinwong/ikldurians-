@@ -147,16 +147,12 @@ h1, h2, h3, h4, h5, h6 {
 
 /*============ Navigation ================*/
 
-.navbar-default {
+.navbar-inverse {
 	background-color: #2B2C30;
-	width: 100%;
-	z-index: 99;
-}
-
-.navbar {
   font-family: 'Autour One', cursive;
   border-bottom: 1px solid #666;
-  margin-bottom: 0;
+	width: 100%;
+	z-index: 99;
 }
 
 .navbar-brand {
@@ -168,7 +164,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 }
 
-.navbar-default .navbar-nav > li > a {
+.navbar-inverse .navbar-nav > li > a {
     color: #fff;
     font-size: 14px;
     line-height: 26px;
@@ -180,12 +176,12 @@ h1, h2, h3, h4, h5, h6 {
 			transition: background .5s ease-in-out 0s;
 }
 
-.navbar-default .navbar-nav > li.current > a {
+.navbar-inverse .navbar-nav > li.current > a {
     color: #6cb670;
     background-color: #2f3238;
 }
 
-.navbar-default .navbar-nav > li > a:hover {
+.navbar-inverse .navbar-nav > li > a:hover {
     color: #6cb670;
 }
 
