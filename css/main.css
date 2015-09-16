@@ -66,6 +66,27 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 0 !important;
 }
 
+/*============ Border ================*/
+.border {
+    border-top: 1px solid #fff;
+    height: 1px;
+    margin: 15px auto 0;
+    position: relative;
+    width: 35%;
+}
+
+.border:before {
+    background-color: #fff;
+    border: 1px ridge #fff;
+    content: "";
+    height: 10px;
+    left: 50%;
+    margin-left: -20px;
+    position: absolute;
+    top: -5px;
+    width: 40px;
+}
+
 /*============ Button ================*/
 
 .btn {
