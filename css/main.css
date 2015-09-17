@@ -758,7 +758,7 @@ parallax-section {
 }
 
 #map-canvas {
-    height: 100%;
+    height: 370px;
     width: 100%;
 }
 
@@ -786,20 +786,17 @@ parallax-section {
     height: 70px;
     width: 70px;
 
-{
-    -webkit-transform: rotate(-10deg);
-       -moz-transform: rotate(-10deg);
-         -o-transform: rotate(-10deg);
-        -ms-transform: rotate(-10deg);
-            transform: rotate(-10deg);
-  }
-{
-      -webkit-transition: all 0.5s ease;
-          -moz-transition: all 0.5s ease;
-            -o-transition: all 0.5s ease;
-           -ms-transition: all 0.5s ease;
-               transition: all 0.5s ease;
-     }
+	-webkit-transform: rotateY(180deg);
+	   -moz-transform: rotateY(180deg);
+		-ms-transform: rotateY(180deg);
+		 -o-transform: rotateY(180deg);
+			transform: rotateY(180deg);
+
+	-webkit-transition: all 400ms ease-out 0s;
+	   -moz-transition: all 400ms ease-out 0s;
+		 -o-transition: all 400ms ease-out 0s;
+			transition: all 400ms ease-out 0s;
+}
 
 .social-icon > ul > li > a > i {
     color: #FFF9E6;
