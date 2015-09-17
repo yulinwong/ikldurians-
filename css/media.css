@@ -1249,11 +1249,6 @@ td.visible-lg {
   }
 }
 
-@media(min-width:768px) {
-    body {
-        padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
-    }
-
     .navbar-fixed-top .navbar-brand {
         padding: 0 0;
     }
