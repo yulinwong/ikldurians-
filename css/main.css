@@ -180,13 +180,10 @@ h1, h2, h3, h4, h5, h6 {
 	z-index: 99;
 }
 
-.navbar-brand {
-	height: auto;
-	padding: 8px 0;
-}
-
-.navbar-brand h1 {
-	margin: 0;
+.navbar-brand > img {
+  object-fit: contain;
+  max-height: 100%;
+  height: 100%;
 }
 
 .navbar-default .navbar-nav > li > a {
