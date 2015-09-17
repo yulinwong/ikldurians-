@@ -102,11 +102,10 @@ h1, h2, h3, h4, h5, h6 {
 	border-radius: 0;
   margin-top: 15px;
 
-  -webkit-transition: all 0.5s ease;
-     -moz-transition: all 0.5s ease;
-       -o-transition: all 0.5s ease;
-      -ms-transition: all 0.5s ease;
-          transition: all 0.5s ease;
+	-webkit-transition: all .5s ease-in 0s;
+	   -moz-transition: all .5s ease-in 0s;
+		 -o-transition: all .5s ease-in 0s;
+			transition: all .5s ease-in 0s;
 }
 
 .btn.active:focus, .btn:active:focus, .btn:focus {
@@ -137,11 +136,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-transparent:hover {
-    -webkit-transform: rotate(-10deg);
-        -moz-transform: rotate(-10deg);
-          -o-transform: rotate(-10deg);
-         -ms-transform: rotate(-10deg);
-             transform: rotate(-10deg);
+    background-color: #6cb670;
+	border: 1px solid transparent;
+    color: #fff;
 }
 
 /*============ Title ================*/
@@ -784,23 +781,25 @@ parallax-section {
 }
 
 .social-icon > ul > li > a {
-    background-color: transparent;
+    background-color: #7F9A8D;
     display: block;
     height: 70px;
     width: 70px;
 
 {
-  -webkit-transform: rotateY(180deg);
-   -moz-transform: rotateY(180deg);
-  -ms-transform: rotateY(180deg);
-   -o-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-
--webkit-transition: all 400ms ease-out 0s;
-   -moz-transition: all 400ms ease-out 0s;
-   -o-transition: all 400ms ease-out 0s;
-    transition: all 400ms ease-out 0s;
-}
+    -webkit-transform: rotate(-10deg);
+       -moz-transform: rotate(-10deg);
+         -o-transform: rotate(-10deg);
+        -ms-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+{
+      -webkit-transition: all 0.5s ease;
+          -moz-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+           -ms-transition: all 0.5s ease;
+               transition: all 0.5s ease;
+     }
 
 .social-icon > ul > li > a > i {
     color: #FFF9E6;
