@@ -12,8 +12,8 @@
 /*=================================================================
 	Basic Setup
 ==================================================================*/
-body {
-    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+#home {
+    padding-top: 80px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 .bg-one {
@@ -208,9 +208,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-/*============ About Us ================*/
+/*============ Home / About Us ================*/
 
-#about {
+#home {
     padding: 70px 0;
 }
 
