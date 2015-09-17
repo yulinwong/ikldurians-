@@ -458,7 +458,7 @@ parallax-section {
 ==================================================================*/
 
 #benefits {
-    padding: 70px 0 100px;
+    padding: 70px 0 40px;
 }
 
 #benefits .title {
@@ -691,7 +691,7 @@ parallax-section {
 
 #contact-us {
   background-image: url(https://cloud.githubusercontent.com/assets/8654889/9922513/06e21484-5d1c-11e5-80fd-5e39178b0425.jpg);
-    padding: 50px 0 50px;
+    padding: 50px 0 40px;
 }
 
 .contact-form {
