@@ -36,33 +36,48 @@
 </head>
 
 <body>
-  <!-- Navigation -->
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-       <a class="navbar-brand" href="#">Brand</a>
-    </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-                        <li class="current"><a href="#home">Home</a></li>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#our-team">Team</a></li>
-                        <li><a href="#contact-us">Contact</a></li>
-                    </ul>
-                </div>
-	      <!-- /main nav -->
-        </nav>
 
+  <!--
+  Fixed Navigation
+  ==================================== -->
+  <header id="navigation" class="navbar navbar-inverse">
+      <div class="container">
+          <div class="navbar-header">
+              <!-- responsive nav button -->
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+    <!-- /responsive nav button -->
 
-    <!-- End Fixed Navigation ==================================== -->
+    <!-- logo -->
+              <a class="navbar-brand" href="#home">
+      <h1 id="logo">
+        <img src="https://cloud.githubusercontent.com/assets/8654889/8447582/959e3098-1fed-11e5-8922-7a41d979f8ae.png" alt="IKL.Durians" height="50px">
+      </h1>
+    </a>
+    <!-- /logo -->
+          </div>
+
+  <!-- main nav -->
+          <nav class="collapse navbar-collapse navbar-right" role="Navigation">
+              <ul id="nav" class="nav navbar-nav">
+                  <li class="current"><a href="#home">Home</a></li>
+                  <li><a href="#about">About Us</a></li>
+                  <li><a href="#services">Services</a></li>
+                  <li><a href="#our-team">Team</a></li>
+                  <li><a href="#contact-us">Contact</a></li>
+              </ul>
+          </nav>
+  <!-- /main nav -->
+
+      </div>
+  </header>
+  <!--
+  End Fixed Navigation
+  ==================================== -->
 
     <!--Start About Section ========================= -->
   <section id="about" class="bg-one">
