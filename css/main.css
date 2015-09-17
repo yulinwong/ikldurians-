@@ -399,20 +399,6 @@ h1, h2, h3, h4, h5, h6 {
     border: 1px solid transparent;
 }
 
-/*============ Main Features / Benefits ================*/
-
-#main-features {
-    padding: 70px 0;
-}
-
-.feature-media {
-	margin-bottom: 30px;
-}
-
-.feature-desc a {
-	margin-right: 20px;
-}
-
 /*============ Counter ================*/
 
 #counter {
@@ -451,6 +437,94 @@ parallax-section {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+/*============ Main Features  ================*/
+
+#main-features {
+    padding: 70px 0;
+}
+
+.feature-media {
+	margin-bottom: 30px;
+}
+
+.feature-desc a {
+	margin-right: 20px;
+}
+
+/*=================================================================
+	Services section
+==================================================================*/
+
+#benefits {
+    padding: 70px 0 100px;
+}
+
+#benefits .title {
+    padding-bottom: 25px;
+}
+
+.benefits-block {
+    padding: 50px 20px;
+    border-left: 1px solid #4e595f;
+    border-top: 1px solid #4e595f;
+    margin-bottom: 10px;
+
+	-webkit-box-shadow:2px 2px 5px rgba(44, 44, 44, .3), 13px 13px 0 rgba(256, 256, 256, .7);
+	   -moz-box-shadow:2px 2px 5px rgba(44, 44, 44, .3), 13px 13px 0 rgba(256, 256, 256, .7);
+			box-shadow:2px 2px 5px rgba(44, 44, 44, .3), 13px 13px 0 rgba(256, 256, 256, .7);
+}
+
+.benefits-icon {
+    margin-bottom: 40px;
+}
+
+.benefits-block h3 {
+	text-transform: uppercase;
+}
+
+/*=================================================================
+	Our skills
+==================================================================*/
+
+#meter {
+    padding: 70px 0;
+    background-image: url(https://cloud.githubusercontent.com/assets/8654889/9922994/c8510896-5d21-11e5-9f31-353c5a9c29e5.jpg);
+}
+
+.meter-chart > h3 {
+    border-bottom: 1px solid;
+    margin: 25px 0 15px;
+    padding-bottom: 10px;
+}
+
+.chart {
+    display: block;
+    position: relative;
+}
+
+.percent {
+    display: inline-block;
+    font-size: 1.6em;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    width: 150px;
+    z-index: 2;
+}
+
+.chart canvas {
+    left: 50%;
+    margin-left: -75px;
+    position: absolute;
+    top: 0;
+}
+
+.percent:after {
+    content: '%';
+    margin-left: .1em;
+    font-size: .8em;
 }
 
 /*=================================================================
